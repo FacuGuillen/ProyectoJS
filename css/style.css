@@ -57,8 +57,22 @@ body
     height: 700px;
 }
 
-.asd
+.imagenes-carrousel
 {
     display: flex;
     align-items: center;
+}
+
+.card-personajes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.asd
+{
+    height: 400px;
 }
