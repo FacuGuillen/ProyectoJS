@@ -3,18 +3,19 @@ body
     background-color: yellow;
 }
 
-h1
+.h1
 {
     font-family: 'Rock Salt', cursive;
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .card
 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2);
-    width: 350px;
-    height: 400px;
+    width: auto;
+    height: auto;
     float: left;
     margin: 15px 0;
     padding: 3px;
@@ -26,4 +27,38 @@ h1
     height: 200px;
     display: block;
     margin: 0 auto;
+}
+
+
+.enlace-pregunta
+{
+    margin-right: 40px;
+}
+
+.color-nav
+{
+    background-color: black;
+}
+
+.enlace-header
+{
+    color: yellow !important;
+    font-family: 'Rock Salt', cursive;
+}
+
+.color-boton
+{
+    background-color: yellow;
+}
+
+.img-carrousel
+{
+    width: 1500px;
+    height: 700px;
+}
+
+.asd
+{
+    display: flex;
+    align-items: center;
 }
