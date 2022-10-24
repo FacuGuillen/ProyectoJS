@@ -1,78 +1,214 @@
-body
-{
-    background-color: yellow;
+body {
+  background-color: yellow;
 }
 
-.h1
-{
-    font-family: 'Rock Salt', cursive;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 30px;
+.enlace-header {
+  color: yellow !important;
+  font-family: "Rock Salt", cursive;
 }
 
-.card
-{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2);
-    width: auto;
-    height: auto;
-    float: left;
-    margin: 15px 0;
-    padding: 3px;
+.color-nav {
+  background-color: black;
 }
 
-.card img
-{
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
+.enlace-pregunta {
+  margin-right: 40px;
 }
 
-
-.enlace-pregunta
-{
-    margin-right: 40px;
+.color-boton {
+  background-color: yellow;
 }
 
-.color-nav
-{
-    background-color: black;
+.h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.enlace-header
-{
-    color: yellow !important;
-    font-family: 'Rock Salt', cursive;
+.sacar-img {
+  display: none;
 }
 
-.color-boton
-{
-    background-color: yellow;
+.img-carrousel {
+  width: 1500px;
+  height: 700px;
+  object-fit: cover;
 }
 
-.img-carrousel
-{
-    width: 1500px;
-    height: 700px;
+.imagenes-carrousel {
+  display: flex;
+  align-items: center;
 }
 
-.imagenes-carrousel
-{
-    display: flex;
-    align-items: center;
+.div-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
 }
 
-.card-personajes
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.button {
+  background-color: black;
+  border-radius: 10px;
+  color: yellow;
+  font-family: cursive;
+  margin-top: 25px;
+  padding: 10px 10px;
 }
 
-.asd
-{
-    height: 400px;
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+  margin-top: 50px;
 }
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.div-ventana {
+  background-color: rgba(56, 56, 17, 0.418);
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  border-radius: 10px;
+  color: yellow;
+  font-family: cursive;
+  margin-top: 25px;
+  padding: 10px 10px;
+}
+
+.div-button-rtas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-opciones, .rojo, .verde {
+  background: white;
+  width: 60%;
+  max-width: 550px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 10px;
+  color: yellow;
+  font-family: cursive;
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 10px 10px;
+}
+
+.button-opciones:hover, .rojo:hover, .verde:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.div-button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+  margin-top: 50px;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.div-ventana {
+  background-color: rgba(56, 56, 17, 0.418);
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.div-img-juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-juego {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.sacar-img {
+  display: none;
+}
+
+.div-jgo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(224, 221, 11, 0.418);
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+}
+
+.p-jgo {
+  text-align: center;
+  font-family: cursive;
+}
+
+.verde {
+  background-color: rgb(7, 204, 7);
+}
+
+.rojo {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

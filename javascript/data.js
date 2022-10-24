@@ -1,0 +1,73 @@
+const jgoPreguntas  = [
+    {
+        pregunta : "Nombre del dueño de la caverna",
+        respuesta : "Moe",
+        incorrecta1 : "Apu",
+        incorrecta2 : "Barney"
+    },
+
+    {
+        pregunta : "Quien es el negro que sabe jugar basketball?",
+        respuesta : "Carl",
+        incorrecta1 : "Dr Hibbert",
+        incorrecta2 : "Apu"
+    },
+
+    {
+        pregunta : "Nombre del famoso saxofonista e idolo de Lisa",
+        respuesta : "Encias Sangrantes",
+        incorrecta1 : "Otto",
+        incorrecta2 : "Tito Puente"
+    },
+
+    {
+        pregunta : "Nombre del dueño del minisuper y padre de 8 hijos",
+        respuesta : "Apu",
+        incorrecta1 : "Lenny",
+        incorrecta2 : "Flanders"
+    },
+
+    {
+        pregunta : "Cual es el nombre de pila del Abuelo Simpson",
+        respuesta : "Abraham",
+        incorrecta1 : "Carl",
+        incorrecta2 : "Herb"
+    },
+
+    {
+        pregunta : "Apellido del mejor amigo borracho de Homero",
+        respuesta : "Gumble / Gomez",
+        incorrecta1 : "Sanchez / Sanches",
+        incorrecta2 : "Skinner"
+    },
+
+    {
+        pregunta : "Cual es la marca de la famosa cerveza que toma Homero ?",
+        respuesta : "Duff",
+        incorrecta1 : "Jaff",
+        incorrecta2 : "Daff"
+    },
+
+    {
+        pregunta : "De que religion es Krusty el payaso?",
+        respuesta : "Judio",
+        incorrecta1 : "Ateo",
+        incorrecta2 : "Cristiano"
+    },
+
+    {
+        pregunta : "El equipo de baisbol de la ciudad de Springfield se llaman Los...",
+        respuesta : "Hisotopos",
+        incorrecta1 : "Ganadores",
+        incorrecta2 : "Amigos del pino"
+    },
+
+    {
+        pregunta : "ES LOS SIMPSON LA MEJOR SERIE DE LA HISTORIA ? RESPONDA:",
+        respuesta : "SI",
+        incorrecta1 : "NO",
+        incorrecta2 : "No sabe, no contesta"
+    },
+
+
+]
