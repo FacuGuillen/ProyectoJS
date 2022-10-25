@@ -63,7 +63,7 @@ async function seleccionOpcion (x) {
         {
             Swal.fire({
                 title:"Termino el juego",
-                text:`Su puntaje es: ${cont}`,
+                text:`Su puntaje es: ${cont}/${jgoPreguntas.length}`,
             });
             localStorage.setItem("Puntaje" , cont)
             cantPreguntas = 0;
