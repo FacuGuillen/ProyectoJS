@@ -1,0 +1,22 @@
+[
+    {
+        "padres" : "Abraham y Mona Simpson",
+        "casado" : "Si, con Marge Simpson",
+        "hijos" : "Bart, Lisa y Maggie Simpson",
+        "hermanos" : "Herbert Powell y Abbie"
+    },
+
+    {
+        "padres" : "Clancy y Jacqueline",
+        "casado" : "Homero Simpson",
+        "hijos" : "Bart, Lisa y Maggie Simpson",
+        "hermanos" : "Patty Bouvier y Selma Bouvier"
+    },
+
+    {
+        "padres" : "Homer y Marge Simpson",
+        "casado" : "Jenda",
+        "hijos" : "Bart, Lisa y Maggie Simpson",
+        "hermanos" : "Hugo, Lisa y Maggie Simpson"
+    }
+]
